@@ -56,17 +56,6 @@ python scripts/exps/exps_3.py \
     --gpus 0
 ```
 
-## Repository Structure
-
-```text
-.
-├── gaa-schnet-unet/        # Main GAA-SchNet-U-Net implementation
-├── gvp-unet/               # GVP-based U-Net experiments
-├── scripts/exps/           # Training and evaluation scripts
-├── scripts/exps/configs/   # Experiment configuration files
-└── gnn-unet.png            # Model overview figure
-```
-
 ## Third-Party Code
 
 This project builds on several open-source resources:
