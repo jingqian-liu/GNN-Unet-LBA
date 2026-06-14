@@ -1,0 +1,17 @@
+{
+  "train_set": "/data/server5/jl126/GNN_UNet/proteinworkshop/data/LBA/splits/split-by-sequence-identity-30/data/train",
+  "valid_set": "/data/server5/jl126/GNN_UNet/proteinworkshop/data/LBA/splits/split-by-sequence-identity-30/data/val",
+  "test_set": "/data/server5/jl126/GNN_UNet/proteinworkshop/data/LBA/splits/split-by-sequence-identity-30/data/test",
+  "save_dir": "./results/SchNet_LBA",
+  "out_dir": "./results/SchNet_LBA",
+  "task": "PLA",
+  "lr": 0.0005,
+  "final_lr": 0.00001,
+  "max_epoch": 50,
+  "save_topk": 1,
+  "max_n_vertex_per_gpu": 1500,
+  "shuffle": true,
+  "model_type": "SchNet",
+  "hidden_size": 128,
+  "n_layers": 6
+}
